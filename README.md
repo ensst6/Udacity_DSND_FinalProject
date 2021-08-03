@@ -57,7 +57,7 @@ Data selection, cleaning, and exploratory data analysis using graphical and univ
 
 Variables with significant univariate associations with EMR availability and use were placed into multivariate logistic regression machine learning models. The most parsimonious models which maximized precision and recall were determined, and the odds ratio of each final variable for predicting either EMR availability or use was calculated and examined. This process, including narrative, Python code, and textual description/analysis, is contained in `DSND_Final_Analysis.ipynb`.  
 
-A technical blog post describing the data, methodology, results, and conclusions is posted [here](get blog post URL).
+A technical blog post describing the data, methodology, results, and conclusions can be found [on Medium](https://ens59327.medium.com/patient-electronic-medical-record-adoption-in-the-us-f961c9b95a96).
 
 ## Dependencies
 See `requirements.txt`.
@@ -95,7 +95,7 @@ E-device and internet-related factors predicting increased likelihood of EMR use
 
 Examining odds ratios, an "excellent" HCP-care rating and >= college degree were most strongly associated with increased likelihood of EMR use.  Those most strongly associated with decreased likelihood of access were residing in the East South Central census division and in a linguistically-isolated area.  
 
-Finally, prevalence differences between those with predicted likelihood of \>= 80% and \<= 20% of having used an EMR were assessed. The top ten were all more common in those predicted more likely to use an EMR. With the exception of education >= college degree and having a regular HCP, all were related to increased internet and e-device access/use for both general and health-related purposes. 
+Finally, prevalence differences between those with predicted likelihood of \>= 80% and \<= 20% of having used an EMR were assessed. The top ten were all more common in those predicted more likely to use an EMR. With the exception of education >= college degree and having a regular HCP, all were related to increased internet and e-device access/use for both general and health-related purposes.
 
 #### History
 Created August 2, 2021
